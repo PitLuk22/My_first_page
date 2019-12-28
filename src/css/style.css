@@ -7,6 +7,10 @@
     /* пишем всегда  */
 }
 
+html {
+    font-family: 'Roboto', 'RobotoCondensed', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -28,7 +32,6 @@
 
 .logo .logo_text {
     color: #ffffff;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     line-height: 24px;
@@ -39,9 +42,8 @@
 
 h1 {
     color: #f9bf3b;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     margin-top: 53px;
     text-align: center;
@@ -49,9 +51,8 @@ h1 {
 
 .simple .title_big {
     color: #ffffff;
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -59,9 +60,8 @@ h1 {
 
 h2.title {
     color: #f9bf3b;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
@@ -71,11 +71,9 @@ h2.title {
     padding: 0 13px;
     margin-top: 23px;
     color: #ffffff;
-    font-family: Roboto;
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
     font-weight: 300;
     text-align: center;
 
@@ -83,7 +81,6 @@ h2.title {
 
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -99,7 +96,6 @@ h2.title {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
@@ -116,9 +112,8 @@ h2.title {
 .more .more_text {
     text-align: center;
     color: #ffffff;
-    font-family: "Roboto - Thin";
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     text-transform: uppercase;
 }
@@ -138,7 +133,6 @@ h2.title {
 
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -159,7 +153,6 @@ h2.title {
 
 .waiting .waiting_subheader {
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     text-align: center;
@@ -180,7 +173,6 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -194,9 +186,8 @@ h2.title {
 .optimization .optimization_header {
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -207,12 +198,10 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-    font-family: "Roboto Light";
     font-weight: 300;
 }
 
 .optimization .optimization_text span {
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -255,7 +244,6 @@ h2.title {
     margin-top: 25px;
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
@@ -279,7 +267,6 @@ h2.title {
     width: 1131px;
     margin-top: 42px;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     line-height: 43px;
@@ -297,7 +284,6 @@ h2.title {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
@@ -322,7 +308,6 @@ h2.title {
     margin-top: 37px;
     text-align: center;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     line-height: 12px;
@@ -333,9 +318,8 @@ h2.title {
     margin-top: 30px;
     text-align: center;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 12px;
     text-transform: uppercase;
 }
@@ -344,7 +328,6 @@ h2.title {
     margin-top: 25px;
     text-align: center;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     line-height: 20px;
@@ -362,7 +345,6 @@ footer .box_footer {
     height: 36px;
     width: 377px;
     color: #888888;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     text-align: center;
